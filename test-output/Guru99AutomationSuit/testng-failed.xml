@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Guru99AutomationSuit]" guice-stage="DEVELOPMENT">
+  <test name="AddNewCustomerPageTest(failed)">
+    <classes>
+      <class name="com.guru.TestCases.NewCustomerTest">
+        <methods>
+          <include name="tearUp"/>
+          <include name="validateNewCustomerDetailsTest"/>
+          <include name="validateNewCustomerPageTitleTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.guru.TestCases.NewCustomerTest -->
+    </classes>
+  </test> <!-- AddNewCustomerPageTest(failed) -->
+</suite> <!-- Failed suite [Guru99AutomationSuit] -->

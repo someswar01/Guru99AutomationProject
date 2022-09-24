@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Guru99AutomationSuit">
+<listeners>
+<listener class-name="com.Utilities.Reporting"></listener>
+</listeners>
+	 	<test name="loginTest">
+		<classes>
+			<class name="com.guru.TestCases.LoginPageTest">
+				<methods>
+					<include name="ValidateTitleTest"></include>
+					<include name="ValidateLoginLogoTest"></include>
+					<include name="ValidateLoginLabelTest"></include>
+					<include name="login"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+
+
+	 <test name="HomePageTest">
+		<classes>
+			<class name="com.guru.TestCases.HomePageTest">
+				<methods>
+
+					<include name="ValidateHomePageTitleTest"></include>
+					<include name="validateHomePageWelcomeLabel"></include>
+					<include name="clickOnNewCustomerTest"></include>
+
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<!-- <test name="AddNewCustomerPageTest">
+		<classes>
+			<class name="com.guru.TestCases.NewCustomerTest">
+				<methods>
+
+					<include name="validateNewCustomerPageTitleTest"></include>
+					<include name="validateNewCustomerDetailsTest"></include>
+
+
+				</methods>
+			</class>
+		</classes>
+	</test>-->
+</suite>  
